@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/add_a_new_user"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/TextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the user name"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/Textlast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the user Lastname"
+        android:textStyle="italic" />
+    <EditText
+        android:id="@+id/TextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the phone number"
+        android:textStyle="italic"
+        android:inputType="phone"/>
+    <EditText
+        android:id="@+id/TextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the user address"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddEmployee"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_user"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ViewPerson"
+        android:padding="16dp"
+        android:background="#ccc"
+        android:text="@string/view_Person"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</RelativeLayout>
